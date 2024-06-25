@@ -1,0 +1,107 @@
+{
+  "name": "SMEAR II",
+  "long_name": "Station for Measuring Ecosystem-Atmospere Relations II",
+  "country": "Finland",
+  "location": "Hyyti\u00e4l\u00e4",
+  "time_zone": "UTC+02",
+  "height": "181",
+  "latitude": "61.844",
+  "longitude": "24.288",
+  "description": "SMEAR II is a rural continental station surrounded by a rather homogeneous coniferous boreal forest, located in southern Finland 60 km northeast from Tampere. The station is equipped with extensive facilities to measure forest ecosystem–atmosphere interactions continuously and comprehensively.",
+  "sites": [
+    { "1": "main cottage" },
+    { "2": "mast" },
+    { "3": "aerosol cottage" }
+    ],
+  "website": "",
+  "organization": "University of Helsinki, ACTRIS, ICOS",
+  "contact": "Tuukka Pet\u00e4j\u00e4 (tuukka.petaja@helsinki)",
+  "data_portal": "https://smear.avaa.csc.fi",
+  "data_usage_terms": "https://smear.avaa.csc.fi/terms-of-use",
+  "data_table": [
+    {
+      "name": "temp",
+      "method": "Ventilated and shielded sensor Pt-100",
+      "height": "4.2, 8.4, 16.8, 33.6, 50.4, 67.2",
+      "time_resolution": "1 M",
+      "time_period": "1996.01.01 - ",
+      "site": "2"
+    },
+    {
+      "name": "RH",
+      "method": "Calculated from dewpoint (1996.01.01-2012.05), Rotronic MP102H RH sensor (2012.06-Now)",
+      "height": "16 (1998.04 - 2017.01), 35 (2017.02 - )",
+      "time_resolution": "1 M",
+      "time_period": "1998.04.16 - ",
+      "site": "2"
+    },
+    {
+      "name": "prec",
+      "method": "Vaisala FD12P weather sensor",
+      "height": "18",
+      "time_resolution": "1 M",
+      "time_period": "2005.04.01 - ",
+      "site": "1"
+    },
+    {
+      "name": "pres",
+      "method": "Druck DPI 260 barometer",
+      "height": "0",
+      "time_resolution": "1 M",
+      "time_period": "1996.01.01 - ",
+      "site": "1"
+    },
+    {
+      "name": "rad_glob",
+      "method": "Reemann TP3 pyranometer, range 300 - 4800 nm (1996.01 - 2008.06), Middleton SK08 pyranometer (2008.07 - 2017.08), Middleton EQ08 pyranometer (2017.09 - )",
+      "height": "18 (radiation tower, 1996.01.01 - 2017.09), 35 (35 m tower, 2017.10 - )",
+      "time_resolution": "1 M",
+      "time_period": "1996.01.01 - ",
+      "site": "1"
+    },
+    {
+      "name": "rad_diff",
+      "method": "Reemann TP 3 pyranometer with shading ring",
+      "height": "18 (radiation tower)",
+      "time_resolution": "1 M",
+      "time_period": "2000.03.15 - ",
+      "site": "1"
+    },
+    {
+      "name": "CO2_flux",
+      "method": "Gill Solent 1012R anemometer/thermometer and LI-COR LI-6262 infrared absorption gas analyser (2001.08 - 2018.03), Gill HS-50 anemometer/thermometer and LI-COR LI-7200 infrared absorption gas analyser (2018.04 - )",
+      "height": "24 (mast/tall tower, 2001.08 - 2018.03), 27 (mast/tall tower, 2018.04 - )",
+      "time_resolution": "30 M",
+      "time_period": "1996.04.01 - ",
+      "site": "1"
+    },
+    {
+      "name": "SO2",
+      "method": "TEI 43B UV fluorescence analysers (1996.01 - 2004.01), TEI 43CTL UV fluorescence analysers (2004.01 - 2010.09), TEI 43iTL UV fluorescence analysers (2010.09 - )",
+      "height": "4.2, 8.4, 16.8, 33.6, 50.4, 67.2 (1996.01 - 2011.03), averaged over all heights (see 16.8 m, 2011.04 - )",
+      "time_resolution": "1 M",
+      "time_period": "1996.01.20 - ",
+      "site": "2"
+    },
+    {
+      "name": "PNSD",
+      "method": "DMPS",
+      "height": "8",
+      "time_resolution": "10 M",
+      "time_period": "1996.01.20 - ",
+      "site": "3"
+    }
+    ],
+  "acronym_table": [
+    { "temp": "air temperature" },
+    { "pres": "air pressure" },
+    { "PNSD": "particle number size distribution" },
+    { "DMPS": "differential mobility particle sizer" }
+    ],
+  "note": "",
+  "reference": [
+    { "Hari2005": "Hari and Kulmala, Boreal Environ. Res., 10, 315–322, 2005." },
+    { "Junninen2009": "Junninen et al., Boreal Environ. Res., 14, 447–457, 2009." }
+    ],
+  "version": "2024.02.06, Putian Zhou (putian.zhou@helsinki.fi)"
+}
